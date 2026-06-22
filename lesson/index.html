@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mad Libs: Debugging the Beast</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Mad Libs: Debugging the Beast</h1>
+    <p class="instructions">Fill in the blanks below, then click "Generate Story" to create your tale!</p>
+
+    <div class="input-grid">
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="e.g. Alex">
+
+      <label for="adjective">Adjective</label>
+      <input type="text" id="adjective" placeholder="e.g. sneaky">
+
+      <label for="noun">Noun</label>
+      <input type="text" id="noun" placeholder="e.g. semicolon">
+
+      <label for="verb">Verb</label>
+      <input type="text" id="verb" placeholder="e.g. teleport">
+
+      <label for="place">Place</label>
+      <input type="text" id="place" placeholder="e.g. the server room">
+
+      <label for="number">Number</label>
+      <input type="text" id="number" placeholder="e.g. 42">
+    </div>
+
+    <div class="button-group">
+      <button id="generate">Generate Story</button>
+      <button id="clear">Clear</button>
+    </div>
+
+    <div id="story" class="story-output"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
